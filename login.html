@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front" id="front">
+                <img class="frontImg" src="frontimg.jpg" alt="">
+                <div class="text" id="fronttext">
+                    <span class="text-1">Every new friend is a<br>new adventure</span>
+                    <span class="text-2">Let's get connected</span>
+                </div>
+            </div>
+            <div class="back" >
+                <img class="backImg" src="backimg1.jpg" alt="">
+                <div class="text">
+                    <span class="text-1">Complete miles of journey <br> with one step</span>
+                    <span class="text-2">Let's get started</span>
+                </div>
+            </div>
+        </div>
+        <form action="#">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Login</div>
+                    <div class="input-boxes">
+                        <div class="input-box">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Enter your mail" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Enter your Password" required>
+                        </div>
+                        <div class="text"><a href="#">Forget Password?</a></div>
+                        <div class="button inputbox">
+                            <input type="submit">
+                        </div>
+                        <div class="login-text">Don't have an account?<label for="flip">Sign Up Now</label></div>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <div class="title">Sign Up</div>
+                    <div class="input-boxes">
+                        <div class="input-box">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Enter your Username" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Enter your mail" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Enter your Password" required>
+                        </div>
+                        
+                        <div class="button">
+                            <input type="submit">
+                        </div>
+                        <div class="sign-up-text">Already have an account?<label for="flip">Login Now</label></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
